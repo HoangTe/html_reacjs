@@ -1,104 +1,68 @@
-.navbar-custom {
-    background-color: #004d00; 
+
+/* header */
+.navbar_brand {
+    padding: 0.3125rem 0;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 2rem;
+    color: #d29d17;
 }
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: white; 
+.navbar-nav .nav-link {
+    color: #000;
+    opacity: 0.8;
+}
+.navbar-nav .nav-item {
+    margin: 0 1.5rem;
+}
+.header-image {
+    width: 100%;
+    height: auto;
 }
 
-.navbar-custom .nav-item {
-    margin-left: 15px; 
+
+/* content one */
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #d29d17;
+}
+.section-subtitle {
+    text-align: center;
+    color: #6c757d;
+    width: 50%;
+    margin: 0 auto 60px auto;
+}
+.card_title {
+    color: #d29d17;
+    margin: 1.5rem 0;
+}
+.card_text{
+    color: #6c757d;
 }
 
-.hero-section {
-    background-color: #e0dcd3; 
-    padding: 50px 0;
+/* content two */
+.section-title2{
+    color: #d29d17;
+    font-size: 1.5rem;
 }
-.hero-content {
-    max-width: 600px;
+.section-content{
+    margin: 1.5rem 0;
+    color: #6c757d;
 }
-.hero-image {
-    max-width: 100%;
-    border-radius: 10px;
+.related-posts img {
+    width: 100%;
+    height: auto;
 }
-.hero-section h6{
-    background-color: white; 
-    color: #004d00; 
-    border-radius: 20px; 
-    padding: 3px 6px; 
-    font-weight: bold; 
-    width: 18%;
-}
-.hero-section h1{
-    color: #004d00; 
-    font-weight: bold; 
-    width: 10%;
-}
-.btn-custom {
-    color: white; 
-    background-color: #004d00; 
-    border-radius: 20px; 
-    padding: 6px 12px; 
-    font-weight: bold; 
-}
-.btn-highlight {
-    background-color: #ccff00; 
-    color: #000; 
-    border-radius: 20px; 
-    padding: 6px 12px; 
-    font-weight: bold; 
+.list-link{
+    margin: 1.5rem 0;
 }
 
-.services-section {
-    background-color: #004d00; 
-    padding: 50px 0;
+/* footer */
+#footer{
+    background-color:#333; 
+    color: #ccc;
 }
-.service-box {
-    background-color: #003300; 
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
-    margin-bottom: 20px;
-}
-.service-box h3 {
-    margin-bottom: 15px;
-}
-.service-box p {
-    margin-bottom: 0;
-}
-
-.strategy-section {
-    background-color: #e0dcd3;
-    padding: 50px 0;
-}
-.strategy-section h6{
-    background-color: white; 
-    color: #004d00; 
-    border-radius: 20px; 
-    padding: 3px 6px; 
-    font-weight: bold; 
-    width: 13%;
-}
-.strategy-section h1{
-    color: #004d00; 
-    font-weight: bold; 
-    width: 10%;
-}
-.strategy-box {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #004d00;
-    margin-bottom: 20px;
-}
-.strategy-box h3 {
-    margin-bottom: 15px;
-}
-.step-badge {
-    background-color: #ccff00;
-    color: #004d00;
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-weight: bold;
-    margin-right: 10px;
+.list-link2{
+    margin: 1rem 0;
+    font-size: 0.9rem;
 }

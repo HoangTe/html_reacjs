@@ -1,137 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>BT-6</title>
+    <title>Examination</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom ">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="#">DiscreteM5</a>
-            <div class="collapse navbar-collapse" id="navbarNav" style="flex-grow: 0;">
-                <ul class="navbar-nav">
+    <!-- header -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light" style="justify-content: space-between; margin: 0 5rem;">
+            <a class="navbar_brand" href="#">Classic</a>
+            <div class="navbar_collapse" >
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" style="background-color: #d29d17; color: #fff; border-radius: 5px;" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item social-icons">
-                        <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="nav-item social-icons">
-                        <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li class="nav-item social-icons">
-                        <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-
-    <section class="hero-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 hero-content">
-                    <h6>Get Started</h6>
-                    <h1 >Small Business Studio</h1>
-                    <p>Lorem ipsum dolor amet consecte adipiscing.</p>
-                    <button class="btn-custom">About Us</button>
-                    <button class="btn-highlight">Read More</button>
-                </div>
-                <div class="col-md-6">
-                    <img src="./images/anh.jpg" alt="Hero Image" class="hero-image">
-                </div>
-            </div>
+        </nav>
+        <div>
+            <img src="./images/bg-header.png" alt="Header Image" class="header-image">
         </div>
     </section>
 
-    <section class="services-section">
+    <!-- content one -->
+    <section id="content_one">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="service-box">
-                        <h3>Management</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci neque, elementum euismod porttitor vehicula, placerat a malesuada elit.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="service-box">
-                        <h3>Promotion</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci neque, elementum euismod porttitor vehicula, placerat a malesuada elit.</p>
-                    </div>
-                </div>
-            </div>
+            <h2 class="section-title">Introduction</h2>
+            <p class="section-subtitle">Suspendisse ut magna vel velit cursus tempor ut nec nunc. Mauris vehicula, augue in tincidunt porta, purus ipsum blandit massa.</p>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="service-box">
-                        <h3>Brand</h3>
+                    <div class="card" style="border:none;">
+                        <img src="./images/conten1.png" alt="Image 1">
+                        <div class="card-body" style="padding:0">
+                            <h5 class="card_title">Lorem ipsum dolor #1</h5>
+                            <p class="card_text">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            <a href="#" class="btn btn-custom" style="background-color: #d29d17; color: #fff; border: none; font-weight: 100;">DETAIL</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="service-box">
-                        <h3>Services</h3>
+                    <div class="card" style="border:none;">
+                        <img src="./images/conten2.png" alt="Image 2">
+                        <div class="card-body" style="padding:0">
+                            <h5 class="card_title">Lorem ipsum dolor #2</h5>
+                            <p class="card_text">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            <a href="#" class="btn btn-custom" style="background-color: #d29d17; color: #fff; border: none; font-weight: 100;">READ MORE</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="service-box">
-                        <h3>Clients</h3>
+                    <div class="card" style="border:none;">
+                        <img src="./images/conten1.png" alt="Image 3">
+                        <div class="card-body" style="padding:0">
+                            <h5 class="card_title">Lorem ipsum dolor #3</h5>
+                            <p class="card_text">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            <a href="#" class="btn btn-custom" style="background-color: #d29d17; color: #fff; border: none; font-weight: 100;">DETAIL</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="service-box">
-                        <h3>Sales</h3>
+                    <div class="card" style="border:none;">
+                        <img src="./images/conten2.png" alt="Image 4">
+                        <div class="card-body" style="padding:0">
+                            <h5 class="card_title">Lorem ipsum dolor #4</h5>
+                            <p class="card_text">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            <a href="#" class="btn btn-custom" style="background-color: #d29d17; color: #fff; border: none; font-weight: 100;">READ MORE</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="strategy-section">
-        <div class="container">
-            <div class="row align-items-center">
+    <!-- content two -->
+    <section id="content_two" style="display: ruby-text;">
+        <div class="container" style="margin: 6rem 0 5rem 0;">
+            <div class="row">
+                <!-- left content two -->
                 <div class="col-md-6">
-                    <h6>Process</h6>
-                    <h1>Business Strategy</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi a elit ante. Libero commodo eleifend.</p>
+                    <h2 class="section-title2">Pellentesque fermentum mauris et posuere</h2>
+                    <p class="section-content">Vivamus accumsan blandit ligula. Sed lobortis efficitur sapien</p>
+                    <img src="./images/content3.png" class="img-fluid" alt="Main Image">
+                    <p class="section-content">Donec tempor lobortis tortor, in feugiat massa facilisis sed. Ut dignissim viverra pretium. In eu justo maximus turpis feugiat finibus scelerisque nec eros. Cras nec lectus tempor nibh vestibulum eleifend et ac elit.</p>
+                    <p class="section-content">Morbi vel pharetra massa, non iaculis tortor. Nulla porttitor tincidunt felis et feugiat. Vivamus fermentum ligula justo, sit amet blandit nisl volutpat id. Fusce sagittis ultricies felis, non luctus mauris lacinia quis.</p>
+                    <p class="section-content">Ut fringilla lacus ac tempor ullamcorper. Mauris iaculis placerat ex et mattis. Mauris id vulputate lectus, id fermentum sapien.</p>
+                    <a href="#" class="btn" style="background-color: #d29d17; color: #fff; border: none; font-weight: 100;">READ MORE</a>
                 </div>
+                <!-- right content two -->
                 <div class="col-md-6">
-                    <div class="strategy-box">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="step-badge">Step 1</span>
-                            <span class="step-badge">1-2 weeks</span>
+                    <div class="row">
+                        <div class="mb-4 col-md-6">
+                            <h4 class="section-title2">Categories</h4>
+                            <ul class="list-unstyled">
+                                <li class="list-link"><a href="#">Tincidunt non faucibus placerat</a></li>
+                                <li class="list-link"><a href="#">Vestibulum tempor ac lectus</a></li>
+                                <li class="list-link"><a href="#">Fusce non turpis euismod</a></li>
+                                <li class="list-link"><a href="#">Nam in augue consectetur</a></li>
+                                <li class="list-link"><a href="#">Text Link Color #006699</a></li>
+                            </ul>
                         </div>
-                        <h3>Brand</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi a elit ante. Integer libero commodo eleifend.</p>
-                    </div>
-                    <div class="strategy-box">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="step-badge">Step 2</span>
-                            <span class="step-badge">1-2 weeks</span>
+                        <div class="mb-4 col-md-6">
+                            <h4 class="section-title2">Useful Links</h4>
+                            <ul class="list-unstyled">
+                                <li class="list-link"><a href="#">Suspendisse sed dui nulla</a></li>
+                                <li class="list-link"><a href="#">Lorem ipsum dolor sit</a></li>
+                                <li class="list-link"><a href="#">Duiss nec purus et eros</a></li>
+                                <li class="list-link"><a href="#">Etiam pulvinar et ligula sed</a></li>
+                                <li class="list-link"><a href="#">Proin egestas eu felis et iaculis</a></li>
+                            </ul>
                         </div>
-                        <h3>Promotion</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi a elit ante. Integer libero commodo eleifend.</p>
                     </div>
-                    <div class="strategy-box">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="step-badge">Step 3</span>
-                            <span class="step-badge">1-2 weeks</span>
+                    <div class="related-posts mt-4">
+                        <h4 class="section-title2">Related Posts</h4>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <img src="./images/conten4.png" alt="Image 1">
+                            </div>
+                            <div class="col-md-8" style="border-bottom: 1px solid #6c757d;">
+                                <h3 style="font-size: 1.2rem; color: #d29d17;">Lorem ipsum dolor</h3>
+                                <p style="font-size: 0.9rem; color: #6c757d;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            </div>
                         </div>
-                        <h3>Sales</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi a elit ante. Integer libero commodo eleifend.</p>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <img src="./images/conten5.png" alt="Image 2">
+                            </div>
+                            <div class="col-md-8" style="border-bottom: 1px solid #6c757d;">
+                                <h3 style="font-size: 1.2rem; color: #d29d17;">Lorem ipsum dolor</h3>
+                                <p style="font-size: 0.9rem; color: #6c757d;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <img src="./images/conten6.png" alt="Image 3">
+                            </div>
+                            <div class="col-md-8" style="border-bottom: 1px solid #6c757d;">
+                                <h3 style="font-size: 1.2rem; color: #d29d17;">Lorem ipsum dolor</h3>
+                                <p style="font-size: 0.9rem; color: #6c757d;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                            </div>
+                        </div>
                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 style="font-size: 1.5rem; margin: 1.5rem 0; color: #d29d17;">Proin eu posuere felis</h3>
+                    <div class="bg-light p-3">
+                        <p style="color:#6c757d; font-size: 0.9rem;">Classic is free HTML CSS website template provided by templatemo for everyone. Feel free to use it.</p>
+                        <p style="color:#6c757d; font-size: 0.9rem;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                        <p style="color:#000"><strong>Danny Egg (Executive)</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3 style="font-size: 1.5rem; margin: 1.5rem 0; color: #d29d17;">Nulla tortor dolor</h3>
+                    <ul class="list-unstyled">
+                        <li class="list-link2"><a href="#">Tincidunt non faucibus</a></li>
+                        <li class="list-link2"><a href="#">Vestibulum tempor</a></li>
+                        <li class="list-link2"><a href="#">Fusce non turpis euismod</a></li>
+                        <li class="list-link2"><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li class="list-link2"><a href="#">Nam in augue consectetur</a></li>
+                        <li class="list-link2"><a href="#">Text Link Color #CCCC66</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 style="font-size: 1.5rem; margin: 1.5rem 0; color: #d29d17;">Etiam mollis ornare</h3>
+                    <p style="width: 90%; font-size: 0.9rem;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                    <hr style="margin: 2rem 0">
+                    <p style="width: 90%; font-size: 0.9rem;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                    <hr style="margin: 2rem 0">
+                    <p style="width: 90%; font-size: 0.9rem;">Aenean cursus tellus mauris, quis consequat mauris dapibus id. Donec scelerisque porttitor pharetra.</p>
+                    <button class="btn" style="background-color: #6c757d; color: #fff; border: none; font-weight: 100; margin: 1rem 0">READ MORE</button>
+                </div>
+                <div class="col-md-3">
+                    <h3 style="font-size: 1.5rem; margin: 1.5rem 0; color: #d29d17;">Fusce non turpis</h3>
+                    <div class="row" style="margin-right: 0;">
+                        <div class="col-4"><img src="./images/footer1.png" alt="Image 1"></div>
+                        <div class="col-4"><img src="./images/footer2.png" alt="Image 2"></div>
+                        <div class="col-4"><img src="./images/footer3.png" alt="Image 3"></div>
+                        <div class="col-4"><img src="./images/footer3.png" alt="Image 4"></div>
+                        <div class="col-4"><img src="./images/footer2.png" alt="Image 5"></div>
+                        <div class="col-4"><img src="./images/footer1.png" alt="Image 6"></div>
+                    </div>
+                    <p style="margin: 1rem 0;">Curabitur dui massa, aliquam quis mi sed, tempor vulputate tellus. Sed vestibulum non neque.</p>
+                    <button class="btn" style="background-color: #6c757d; color: #fff; border: none; font-weight: 100;">BROWSE</button>
                 </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
