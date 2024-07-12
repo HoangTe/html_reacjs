@@ -8,10 +8,12 @@ pipeline {
         }
         stage('Push Docker Hub') {
             steps {
-                git branch: '', credentialsId: 'push dockerhub', url: ''
+                // This step should not normally be used in your script. Consult the inline help for details.
+                credentialsId: 'push dockerhub') {
                 // some block
-                sh label: '', script: 'docker build -t hoangte/t3h-repository:2.0 .'
-                sh label: '', script: 'docker push hoangte/t3h-repository:2.0'}
+                }
+                sh label: '', script: 'docker build -t hoangte/t3h-repository .'
+                sh label: '', script: 'docker push hoangte/t3h-repository'}
             }
         }
     }
